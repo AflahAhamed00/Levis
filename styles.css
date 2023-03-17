@@ -1,0 +1,924 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+header
+{
+    height: 6rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+header .login
+{
+    height: 2rem;
+    border-bottom: .5px solid #c5c5c5;
+    font-family: Interstate-Bold, Helvetica, Arial, sans-serif;
+}
+
+header .login .offers
+{
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 35rem;
+    top: .5rem;
+    font-size: 12px;
+    color: #000000;
+}
+
+.login span
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login i
+{
+    font: 12px;
+    cursor: pointer;
+}
+
+.login .log-signin
+{
+    display: flex;
+    font-size: 16px;
+    gap: 3rem;
+    justify-content: end;
+    color: #6e6e6e;
+    position: absolute;
+    top: .7rem;
+    right: 5rem;
+    cursor: pointer;
+}
+
+.log-signin .location
+{
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.location i
+{
+    font-size: 10px;
+}
+
+.location i:hover
+{
+    color: #000000;
+}
+
+header .shop
+{
+    display: flex;
+    gap: 2rem;
+    font-family:Interstate-Bold, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    position:absolute;
+    top:3.3rem;
+    left: 5.8rem;
+    cursor: pointer;
+    padding-bottom: 1.2rem;
+    letter-spacing: .5px;
+}
+
+
+header .shop h4:hover
+{
+    border-bottom: 2.3px solid black;
+    
+}
+
+header .levis-logo img
+{
+    width: 70px;
+    position: absolute;
+    top:2.5rem;
+    left: 45rem;
+    cursor: pointer;
+}    
+header .search-bar
+{
+   position: absolute;
+   top:3.5rem;
+   right:20rem;
+   padding: 0 .8rem .5rem 1rem;
+   border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+header .search-bar i
+{
+    cursor: pointer;
+}
+
+header .search-bar input[type="search"]
+{
+    border: none;
+    outline: none;
+    width: 12.5rem;   
+    font-size: 16px;
+    font-family:Helvetica-Now-Text-Bold, Helvetica, Arial, sans-serif;    
+}
+
+header .cancel-wishlist
+{
+    position: absolute;
+    top: 3.5rem;
+    right: 5rem;
+}
+
+header .cancel-wishlist i
+{
+  margin: 0 25px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+   main .main-video video
+ {
+    width: 95rem;
+ }  
+
+ main .main-para 
+ {
+    font-family:Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    position: absolute;
+    right: 13rem;
+    top: 25rem;
+ }
+
+ main .main-para .firstline
+ {
+    padding-bottom: 1.3rem;
+    font-size: 15px;
+    font-weight: 800;
+ }
+
+ main .main-para .secondline
+ {
+    padding-bottom:1.3rem;
+    font-size: 45px;
+    font-weight: 800;
+ }
+
+ main .main-para .thirdline
+ {
+    font-size: 13.5px;
+    line-height: 24px;
+    font-weight: lighter;
+ }
+
+ main .buttons button
+ {
+    padding: .8rem .7rem .8rem .7rem;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+    border-radius: .2rem;
+    font-size: 17px;
+    cursor: pointer;
+ }
+
+ main .buttons
+ {
+    position:absolute;
+    left: 55.5rem;
+    top: 41.5rem; 
+    cursor: pointer;
+ }
+
+ main .buttons button:hover
+ {
+    background-color: rgb(229, 229, 229);
+ }
+
+ main p
+ {
+    position: absolute;
+    left: 55.5rem;
+    top:45.5rem ;
+    color: white;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+section .img img
+{
+    margin: 2rem 0 5rem 4rem;
+    width: 651px;
+    height:764px;
+}
+
+
+section .image-side
+{
+    position: absolute;
+    bottom: -55rem;
+    left: 54rem;
+}
+
+section .image-side .first
+{
+    font-family: Helvetica-Now-Text-Bold, Helvetica, Arial, sans-serif;
+    color: #c41320;
+    padding-bottom: 1rem;
+    font-size: 16px;
+}
+
+section .image-side .second
+{
+    font-family: InterstateWGL-Black, Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    padding-bottom: 1.1rem;
+}
+
+section .image-side .third
+{
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    word-spacing:.2rem;
+    font-weight: lighter;
+    line-height: 24px;
+    padding-bottom: .6rem;
+    
+}
+
+section  .fourth
+{
+    font-family: Helvetica-Now-Text-Bold, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80px;
+    border-bottom: 2.2px solid #c41320 ;
+    position: absolute;
+    left: 54rem;
+    top: 99rem;
+    cursor: pointer;
+}
+
+
+
+.new-arrivals .text
+{
+    text-align: center;
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    font-size: 29px;
+    color: #000000;
+    letter-spacing: 1px;
+    word-spacing: .5px;
+}
+
+.dress-images
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ; 
+    margin: 3rem 0 3rem 2rem;
+    cursor: pointer;
+}
+.new-arrivals .dress-images img
+{
+    height: 19rem;
+}
+
+figcaption
+{
+    margin-left: 10px;
+    word-spacing: .2rem;
+    line-height: 1.5rem;
+    font-weight: lighter;
+    font-size: 18px;
+    font-family:Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+}
+
+figcaption del
+{
+    margin-right: 7px;
+}
+
+figcaption .Details
+{
+    color:#333333;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+figcaption .price
+{
+    font-weight: 500;
+    color:#333333;
+    cursor: default;
+}
+
+.blue-background
+{
+    background-color:#99ccff;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-background .captions
+{
+    width: 40rem;
+    height: 14rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.captions .firstline
+{   
+    padding-top: 1rem;
+    font-family: Helvetica-Now-Text-Bold, Helvetica, Arial, sans-serif;
+    line-height: 3rem;
+}
+
+.captions .secondline
+{
+    font-family: InterstateWGL-Black, Helvetica, Arial, sans-serif;
+    font-size: 29px;
+    line-height: 4rem;
+    letter-spacing: 1.6px;
+    font-weight: bolder;
+}
+
+.captions .thirdline
+{
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    line-height: 2.6rem;
+    padding-bottom: 1rem;
+}
+
+.captions .fifthline a
+{
+    padding: .9rem;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica-Now-Text-Bold, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 0.2rem;
+}
+
+.captions .sixthline
+{
+   padding-top: 1rem;
+   color: #6e6e6e;
+   font-size: 19px;
+   font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+   word-spacing: .5px;
+   opacity: .7;
+}
+
+section .new-image
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    margin-bottom: 6rem;
+    cursor: pointer;
+}
+
+section .new-image img
+{
+    width:47.5rem;
+    height: 43rem;
+    object-fit: cover;
+    position: relative;
+}
+
+.new-image .kidimage .para
+{
+    position: absolute;
+    left: 8rem;
+    top: 1.5rem;
+}    
+
+.new-image .girlimage .para
+{
+    position: absolute;
+    left: 50rem;
+    top: 1.5rem;
+}
+
+.new-image .para .firstline
+{
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 13px;
+    line-height: 2rem;
+}
+
+.new-image .para .secondline
+{
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+}
+
+.new-image .para a
+{
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+section .modelsimage
+{
+    display: flex;  
+    padding-left: 4rem;
+    gap: 5rem;
+    overflow-y: none;
+    overflow-x: scroll;
+    position: relative; 
+    cursor: pointer;
+}    
+
+
+section .modelsimage .firstmodel img
+{
+    width: 35rem;
+}
+
+section .modelsimage .secondmodel img
+{
+    position: absolute;
+    top: 5rem;
+    
+}
+
+section .modelsimage .thirdmodel img
+{
+    position:absolute;
+    width: 32rem;
+    height: 38rem;
+    top: 3.5rem;
+    left: 76rem;
+}
+
+section .modelsimage .fourthmodel img
+{
+    position:absolute;
+    width: 35rem;
+    left: 116rem;
+}
+
+section .modelsimage .secondmodel figcaption
+{
+    position: absolute;
+    top: 40rem;
+}
+
+section .modelsimage .thirdmodel figcaption
+{
+    position: absolute;
+    top: 41rem;
+    left: 75.6rem;
+    width: 35rem;
+}
+
+section .modelsimage .fourthmodel figcaption
+{
+    position: absolute;
+    top: 44rem;
+    left: 115rem;
+    width: 35rem;
+}
+
+section .modelsimage .shop
+{
+    font-size: 13px;
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    padding-top: 1rem;
+    opacity: .7;
+}
+
+section .modelsimage .bold
+{
+    font-size: 17px;
+    font-family: InterstateWGL-Black, Helvetica, Arial, sans-serif;
+    padding-bottom: .5rem;
+    font-weight: 600;
+}
+
+section .modelsimage .quotes
+{
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    position: relative;
+    bottom: .5rem;
+   opacity: .7;
+}
+
+section .be-part
+{
+    height: 23rem;
+    display: flex;
+    justify-content: center;
+}
+
+section .be-part .all-lines
+{
+    height:20rem;
+    text-align: center;
+}
+
+.be-part .all-lines .firstline
+{
+    padding-top: 2rem;
+    color: #c41230;
+    font-family: Helvetica-Now-Text-Bold, Helvetica, Arial, sans-serif; 
+}
+
+.be-part .all-lines .secondline
+{
+    padding:1rem 0 1.5rem 0;
+    font-family:InterstateWGL-Black, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px
+}
+
+.be-part .all-lines .thirdline
+{
+    font-family:Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    line-height: 1.8rem;
+    font-size: 15px;
+    opacity: .7;
+    padding-bottom: 1rem;
+}
+
+.be-part .all-lines .fourthline
+{
+    display: flex;
+    gap: 2rem;
+    margin-left: 1rem;
+    padding-bottom: 1.6rem;
+}
+
+.be-part .all-lines .fourthline h4
+{
+    border-bottom: 2px solid #c41320;
+    cursor: pointer;
+}
+
+section .full-image
+{
+    margin-bottom: 4rem;
+    cursor: pointer;
+} 
+
+section .full-image img
+{
+    object-fit: fill;
+    width: 95rem;
+}
+
+.styles-you-may-like .dress-images
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ; 
+    margin: 3rem 0 3rem 2rem;
+    cursor: pointer;
+}
+
+.styles-you-may-like .dress-images img
+{
+    height: 19rem;
+}
+
+section .styles-you-may-like .text
+{
+    text-align: center;
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    font-size: 29px;
+    color: #000000;
+    letter-spacing: 1px;
+    word-spacing: .5px;
+}
+
+section .built-a-fit .text 
+{
+    font-family:Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    margin-left: 4rem;
+    font-size: 23px;
+    letter-spacing: 1px;
+    word-spacing: .5px;
+    padding-bottom: 3rem;
+}
+
+section .built-a-fit .threepics
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+}
+
+section .built-a-fit .threepics img
+{
+    height: 34rem;
+    cursor: pointer;
+}
+
+section .built-a-fit .threepics figcaption
+{
+    padding: .8rem 0 .8rem 0;
+    font-size:18px ;
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    align-items: center;
+    letter-spacing: .2px;
+    cursor: pointer;
+}
+
+section .built-a-fit .threepics figcaption span
+{
+    font-weight:lighter;
+    font-size: 13px;
+}
+
+.threepics img:hover
+{
+   transform: scale(1.05);
+    transform-origin: center center;
+}
+
+section .red-tab
+{
+    height: 26rem;
+    display: flex; 
+    justify-content: center;
+}
+
+.red-tab .contents
+{
+    height: 23rem;
+}
+
+.red-tab .contents .redtabimage img
+{
+    align-items: center;
+    margin: 0 0 1.5rem 16rem;
+}
+
+.contents .firstline
+{
+    font-family: InterstateWGL-Black, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    line-height: 2.4rem;
+    margin-bottom: .6rem;
+}
+
+.contents .secondline
+{
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    opacity: .8;
+}
+
+.contents .signup-login 
+{
+    display: flex;
+    justify-content: center; 
+}
+
+.contents .signup-login p
+{
+   margin: 1rem 2rem .6rem 0;
+   border-bottom: 2px solid #c41230;
+   gap: 4rem;
+   font-size: 16px;
+   font-weight: bolder;
+   font-family: Helvetica-Now-Text-Bold, Helvetica, Arial, sans-serif;
+   cursor: pointer;
+}
+
+footer .graybackground
+{
+    height: 65rem;
+    background-color: #f3f3f3;
+}
+
+footer .graybackground .innercontents
+{
+    height: 30rem;
+    margin: 0 10rem 0 10rem;
+    line-height: rem;
+    position: relative;
+}
+
+.innercontents .liveinlevis
+{
+    font-family: Helvetica-Now-Text-Bold, Helvetica, Arial, sans-serif;
+    padding-top: 3rem;
+    line-height: 4rem;
+}
+
+.innercontents .footerpic
+{
+    height: 24rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.innercontents .footerpic img
+{
+    width: 20rem;
+    margin-left: .7rem;
+}
+
+.innercontents .footerpic i
+{
+    position: absolute;
+    font-size: 35px;
+    margin-left: 1rem;
+    top: 8rem;
+}
+
+footer .imageside
+{
+    position: absolute;
+    top: .1rem;
+    right: 4rem;
+}
+
+footer .imageside h2
+{
+    font-family: InterstateWGL-Black, Helvetica, Arial, sans-serif;
+    padding-bottom: .5rem;
+}
+
+footer .imageside h5
+{
+    font-family: Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    padding-bottom:1rem;
+}
+
+footer .imageside input
+{
+    border: none;
+    padding: 1.2rem 7.3rem 1.2rem 1.2rem;
+    margin-bottom: .6rem;
+    outline: none;
+}
+
+footer .imageside h6
+{
+    color: #6e6e6e;
+    margin-bottom: 1rem;
+}
+
+footer .imageside h6 a
+{
+    color: #6e6e6e;
+}
+
+footer .imageside button
+{
+    border: none;
+    background-color: #000000;
+    color: white;
+    padding: 1rem 7.9rem 1rem 7.9rem;
+    border-radius: .1rem;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+footer .imageside button:hover
+{
+    background-color: #403e3f;
+}
+
+footer .footer-policies 
+{
+   line-height: 2rem;
+   display: flex;
+   gap: 5rem;
+   padding-bottom: 2rem;
+   cursor: pointer;
+}
+
+footer .footer-policies .head
+{
+    font-family: Helvetica-Now-Text-Bold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+footer .footer-policies .data
+{
+    font-family:Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    color: #6e6e6e;
+    font-weight: lighter;
+}
+
+footer .footer-policies .data:hover
+{
+    color: #000000;
+}
+
+footer .download 
+{
+    height: 8rem;
+}
+
+footer .download h4
+{
+    font-family:Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif ;
+    font-size: 13px;
+}
+
+footer .download .mac-playstore
+{
+    gap: 2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+footer .download .mac-playstore .image1 
+{
+    position: absolute;
+    width: 133px;
+    margin-top: .6rem;
+} 
+
+footer .download .mac-playstore .image2 
+{
+    position: absolute;
+    left: 7.9rem;
+   width: 150px;
+}
+
+footer .footerlastline
+{
+    display: flex;
+    position: relative;
+}
+
+footer  .para span h6
+{
+    font-family:Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif ;
+    padding: .6rem;
+    color:#68b631 ;
+    border: 1px solid #68b631;
+    width: 8rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer .para span h6:hover
+{
+    color: white;
+    background-color: #68b631;
+}
+
+footer .footerlastline .last
+{
+    display: flex;
+    align-items: center;
+    color: #6e6e6e;
+    gap: 1.5rem;
+    margin-left: 1.5rem;
+    font-family:Helvetica-Now-Text-Regular, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+
+}
+
+footer .footerlastline .last h5
+{
+    cursor: pointer;
+}
+
+footer .footerlastline .last p
+{
+    font-size: 11px;
+}
+
+footer .footerlastline .last h5:hover
+{
+    color: #080808;
+}
+
+footer .medias img
+{
+    width: 16px;
+    gap: 5rem;
+    position: relative;
+    left:  60rem;
+    bottom: 2rem;
+    padding: .7rem;
+    cursor: pointer;
+}
+
+
