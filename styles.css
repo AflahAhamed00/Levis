@@ -648,7 +648,8 @@ section .built-a-fit .threepics figcaption span
 .threepics img:hover
 {
    transform: scale(1.05);
-    transform-origin: center center;
+    transform-origin: center;
+    transition-duration: 1s;
 }
 
 section .red-tab
